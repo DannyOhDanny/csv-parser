@@ -1,4 +1,5 @@
 import Papa from 'papaparse';
+import React from 'react';
 import { useRef, useState } from 'react';
 import Error from '../Error/Error';
 import './Main.css';

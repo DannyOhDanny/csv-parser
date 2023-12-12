@@ -1,4 +1,5 @@
 import './Error.css';
+import React from 'react';
 
 function Error({ errorOnUpload }) {
   return (

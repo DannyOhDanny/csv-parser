@@ -1,8 +1,9 @@
 import './Table.css';
+import React from 'react';
 
 function Table({ data, setSaved }) {
   return (
-    <section className="table">
+    <section className="table" title="table">
       <button
         className="table__button"
         onClick={() => {
@@ -10,7 +11,7 @@ function Table({ data, setSaved }) {
           setSaved(false);
         }}
       >
-        Загрузить новый файл{' '}
+        Загрузить новый файл
       </button>
       <div className="table__wrapper">
         <table className="table__container">

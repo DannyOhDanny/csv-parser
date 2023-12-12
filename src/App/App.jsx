@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react';
 import { useState, useEffect } from 'react';
 import Main from '../Main/Main';
 import Table from '../Table/Table';
@@ -7,8 +8,6 @@ function App() {
   const [csvData, setCsvData] = useState([]);
 
   const [saved, setSaved] = useState(false);
-
-  const localStorageData = localStorage.getItem('results');
 
   const onUpdateCSVDataHandler = data => {
     if (data) {
@@ -29,17 +28,13 @@ function App() {
   }, []);
 
   return (
-    <>
+    <main>
       {saved ? (
-        <Table
-          data={csvData}
-          onUpdateCSVDataHandler={onUpdateCSVDataHandler}
-          setSaved={setSaved}
-        ></Table>
+        <Table data={csvData} setSaved={setSaved}></Table>
       ) : (
         <Main onUpdateCSVDataHandler={onUpdateCSVDataHandler}></Main>
       )}
-    </>
+    </main>
   );
 }
 

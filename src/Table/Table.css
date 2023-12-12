@@ -32,9 +32,9 @@
 
 .table__wrapper {
   margin: 0 auto;
+  border-radius: 10px 0px 0px 0px;
   max-width: 1407px;
   width: 100%;
-  border-radius: 10px 0px 0px 0px;
   background: #fff;
 }
 .table__container {
