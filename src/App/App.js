@@ -1,14 +1,13 @@
 import './App.css';
-import Error from '../Error/Error';
+import Main from '../Main/Main';
+import Table from '../Table/Table';
+
 function App() {
   return (
-    <section className="main">
-      <Error></Error>
-      <div className="main__container">
-        <h1 className="main__title">Выберите файл в формате CSV</h1>
-        <button className="main__button">Выберите файл</button>
-      </div>
-    </section>
+    <>
+      <Main></Main>
+      <Table></Table>
+    </>
   );
 }
 
