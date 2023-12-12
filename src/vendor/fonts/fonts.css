@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(./noto-sans-v35-cyrillic_latin-regular.woff2) format('woff2'),
+    url(./noto-sans-v35-cyrillic_latin-regular.woff) format('woff');
+}

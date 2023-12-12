@@ -1,0 +1,11 @@
+@import url(./vendor/fonts/fonts.css);
+@import url(./vendor/normalize.css);
+
+body {
+  background-color: #cbcbcb;
+  position: relative;
+}
+
+* {
+  scroll-behavior: smooth;
+}
