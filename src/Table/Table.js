@@ -1,10 +1,17 @@
 import './Table.css';
 
-function Table({ data, localStorageData, saved }) {
-  console.log(saved);
+function Table({ data, setSaved }) {
   return (
     <section className="table">
-      <button className="table__button">Загрузить новый файл</button>
+      <button
+        className="table__button"
+        onClick={() => {
+          localStorage.clear();
+          setSaved(false);
+        }}
+      >
+        Загрузить новый файл{' '}
+      </button>
       <div className="table__wrapper">
         <table className="table__container">
           <tbody>

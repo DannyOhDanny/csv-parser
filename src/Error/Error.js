@@ -1,9 +1,9 @@
 import './Error.css';
 
-function Error() {
+function Error({ errorOnUpload }) {
   return (
     <div className="main__error">
-      <h3 className="main__error-title">Неправильный формат файла, разрешены только файлы .CSV</h3>
+      <h3 className="main__error-title">{errorOnUpload}</h3>
     </div>
   );
 }
