@@ -16,15 +16,14 @@ function App() {
       setSaved(true);
     }
   };
+
   if (saved) {
     localStorage.setItem('saved', JSON.stringify(saved));
   }
 
   useEffect(() => {
-    const isSaved = JSON.parse(localStorage.getItem('saved'));
-    const savedResults = JSON.parse(localStorage.getItem('results'));
-    setCsvData(savedResults);
-    setSaved(isSaved);
+    setCsvData(JSON.parse(localStorage.getItem('results')));
+    setSaved(JSON.parse(localStorage.getItem('saved')));
   }, []);
 
   return (
