@@ -9,8 +9,7 @@ function Table({ data, setSaved }) {
         onClick={() => {
           localStorage.clear();
           setSaved(false);
-        }}
-      >
+        }}>
         Загрузить новый файл
       </button>
       <div className="table__wrapper">
@@ -23,9 +22,9 @@ function Table({ data, setSaved }) {
               <th className="table__header">Дата рождения</th>
               <th className="table__header">Адрес</th>
             </tr>
-            {data.map((data, key) => {
+            {data.map((data, i) => {
               return (
-                <tr className="table__row" key={data.phone}>
+                <tr className="table__row" key={i}>
                   <td className="table__line">{data.name}</td>
                   <td className="table__line">{data.phone}</td>
                   <td className="table__line">{data.email}</td>
