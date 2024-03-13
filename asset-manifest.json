@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/csv-parser/static/css/main.42a7e300.css",
+    "main.js": "/csv-parser/static/js/main.43fbcd37.js",
+    "static/media/noto-sans-v35-cyrillic_latin-regular.woff": "/csv-parser/static/media/noto-sans-v35-cyrillic_latin-regular.04f6f6833a863f2f7a05.woff",
+    "static/media/noto-sans-v35-cyrillic_latin-regular.woff2": "/csv-parser/static/media/noto-sans-v35-cyrillic_latin-regular.1f4a572c2a509f042269.woff2",
+    "index.html": "/csv-parser/index.html",
+    "main.42a7e300.css.map": "/csv-parser/static/css/main.42a7e300.css.map",
+    "main.43fbcd37.js.map": "/csv-parser/static/js/main.43fbcd37.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42a7e300.css",
+    "static/js/main.43fbcd37.js"
+  ]
+}
