@@ -2,7 +2,8 @@
 
 SPA-Приложение с функциями:
 
-- [Ссылка](https://dannyohdanny.github.io/csv-parser/) : csv-файлы для теста находятся в папке assets.
+- [Ссылка на проект](https://dannyohdanny.github.io/csv-parser/)
+- csv-файлы для теста находятся в папке assets.
 
 - загрузки, чтения, отображения CSV-файлов с кодировкой `Windows-1251`и`utf-8`;
 - записи информации из них их в локальную память браузера (LocalStorage).
